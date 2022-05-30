@@ -1,0 +1,47 @@
+
+a = int(input('введите число a'))
+b = int(input('введите число b'))
+c = int(input('введите число c'))
+d = int(input('введите число d'))
+if a<b<c<d:
+    print("a")
+else:
+    if b<a<c<d:
+         print("b")
+    else:
+         if c<a<b<d:
+             print("c")
+         else:
+             if d<a<b<c:
+                print("d")
+                
+                
+         a = int(input('введите 1 сторону'))
+b = int(input('введите 2 сторону'))
+c = int(input('введите 3 сторону'))
+if a == b == c:
+    print("Равносторонний")
+else:
+    if a == b or b == c or c == a:
+         print("Равнобедренный")
+    else:
+        print("Разносторонний")       
+
+x = int(input())
+if -1 < x < 17:
+ print ('принадлежит промежутку')
+else:
+ print ('не принадлежит промежутку')
+ 
+ x = int(input('введите количество сторон'))
+if x == 3:
+    print("треугольник")
+else:
+    if x == 4:
+     print("квадрат")
+    else:
+        if x == 5:
+            print ("пятиугольник")
+        else:
+            if x == 6:
+                print("шестиугольник")
